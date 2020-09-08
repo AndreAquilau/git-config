@@ -36,3 +36,13 @@ Verificar configurações do git.
 git config --list -> lista todas configurações do git
 ~~~
 
+#### Nível de configuração do git
+O git possui três níveis de configurações, primeiro nível "--system" que é a configuração para qualquer usuário na quele computador, o segundo nível "--global" que é a configuração do seu usuário para qualquer projeto, é o terceiro nível "--local" que são as configurações apenas do projeto que está sendo feito.
+~~~bash
+git config --system -> todos usuários.
+
+git config --global -> apenas o usuário que esá logado.
+
+git config --local -> apenas para o projeto.
+~~~
+
