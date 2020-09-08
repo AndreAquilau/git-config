@@ -1,4 +1,4 @@
-### Documentação de como implementar o git dá forma correta em projetos.
+### Documentação de como configrurar o git em seus projetos.
 
 #### CLI básico git.
 Iniciando repositório com git.
