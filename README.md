@@ -16,13 +16,23 @@ Adicionar alteração feita nos arquivos.
 git commit -m 'commentary'
 ~~~
 
-#### CLI logs
-logs dos commits feitos
+#### CLI logs and Status
+logs dos commits feitos.
 ~~~bash
 git log
 
 or
 
 git log -a
+~~~
+Mostra as alterações nos arquivos.
+~~~bash
+git status
+~~~
+
+#### CLI git config
+Verificar configurações do git.
+~~~bash
+git config --list -> lista todas configurações do git
 ~~~
 
